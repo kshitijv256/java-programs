@@ -23,7 +23,7 @@ public class newGUI implements ActionListener {
 
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(300,300);
+        frame.setPreferredSize(new Dimension(300, 200));
         frame.pack();
         frame.setVisible(true);
     }
