@@ -20,7 +20,7 @@ class StackArray {
     }
 
     public void display() {
-        for (int i = 0; i <= top; i++) {
+        for (int i = top; i >= 0; i--) {
             System.out.print(stackArray[i] + " ");
         }
         System.out.println();
