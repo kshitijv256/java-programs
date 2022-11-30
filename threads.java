@@ -1,5 +1,3 @@
-
-
 class threads extends Thread {
     public static void main(String[] args) {
         threads t = new threads();

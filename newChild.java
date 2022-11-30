@@ -4,7 +4,7 @@ class newParent {
     }
 }
 public class newChild extends newParent {
-    public void method() {
+    void method() {
         System.out.println("Child's method()");
         super.method();
     }
