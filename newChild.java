@@ -3,7 +3,9 @@ class newParent {
         System.out.println("Parent's method()");
     }
 }
-public class newChild extends newParent {
+class middleChild extends newParent {}
+
+public class newChild extends middleChild {
     void method() {
         System.out.println("Child's method()");
         super.method();
