@@ -7,5 +7,7 @@ public class GCDsoln {
     public static void main(String[] args) {
         GCDsoln obj = new GCDsoln();
         System.out.println(obj.gcd(4,6));
+        System.out.println(obj.gcd(6,6));
+        System.out.println(obj.gcd(6,4));
     }
 }
