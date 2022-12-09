@@ -2,7 +2,7 @@ package interfaces;
 
 public class AuxClass extends HiddenClass implements MyInterface{
     public void printer(){
-        System.out.println("working implementation");
+        System.out.println("Working implementation");
     }
 
     @Override
