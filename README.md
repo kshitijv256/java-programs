@@ -1,6 +1,7 @@
 # Java programs
 
-This a remote repository to store some of java programs that I write for practice
+This is a repository to store practice java programs
+
 
 ### Contribution
 
